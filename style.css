@@ -1,0 +1,105 @@
+body {
+  width: 600px;
+  margin: auto;
+}
+.gallery_box img {
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 25px;
+  object-fit: contain;
+}
+
+.gallery_box img:hover {
+  /* filter: grayscale(100%); */
+  /* filter: invert(1); */
+  scale: 1.1;
+}
+
+.welcome_title_text {
+  color: red;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+.reb_log_btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* === auth files css === */
+.login_box {
+  text-align: center;
+}
+
+form .auth_input_box label {
+  display: block;
+  margin-bottom: 10px;
+}
+form .auth_input_box label input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+}
+form .auth_input_box label input:focus {
+  outline: none;
+}
+
+form .auth_input_box button {
+  background: black;
+  border: 1px solid #d2d2d2;
+  color: #ffffff;
+  padding: 8px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form .auth_input_box button:hover {
+  background: rgb(120, 120, 120);
+}
+
+.reg_box {
+  text-align: center;
+}
+
+/* === Blog files css === */
+.blog_head_text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* === image_upload_section files css === */
+
+.image_upload_section {
+  text-align: center;
+}
+
+.image_upload_section input[type=file] {
+  border: 1px solid #d2d2d2;
+  padding: 30px 20px;
+}
+
+.image_upload_section input[type=submit] {
+  background: black;
+  border: 1px solid #d2d2d2;
+  color: #ffffff;
+  padding: 8px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.image_upload_section input[type=submit]:hover {
+  background: rgb(120, 120, 120);
+}
+
